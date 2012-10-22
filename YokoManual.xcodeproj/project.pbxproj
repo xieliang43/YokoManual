@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0899FE31635989400C63744 /* 32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0899FE21635989400C63744 /* 32.jpg */; };
 		E0BACAB4163526AA00C53728 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BACAB3163526AA00C53728 /* UIKit.framework */; };
 		E0BACAB6163526AA00C53728 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BACAB5163526AA00C53728 /* Foundation.framework */; };
 		E0BACAB8163526AA00C53728 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BACAB7163526AA00C53728 /* CoreGraphics.framework */; };
@@ -89,6 +90,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E0899FE21635989400C63744 /* 32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 32.jpg; sourceTree = "<group>"; };
 		E0BACAAF163526AA00C53728 /* YokoManual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YokoManual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BACAB3163526AA00C53728 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E0BACAB5163526AA00C53728 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -398,6 +400,7 @@
 				E0BACC2216352ACA00C53728 /* 21.jpg */,
 				E0BACC2316352ACA00C53728 /* 22.jpg */,
 				E0BACC2416352ACA00C53728 /* 23.jpg */,
+				E0899FE21635989400C63744 /* 32.jpg */,
 				E0BACC2516352ACA00C53728 /* 24.jpg */,
 				E0BACC2616352ACA00C53728 /* 25.jpg */,
 				E0BACC2716352ACA00C53728 /* 26.jpg */,
@@ -516,6 +519,7 @@
 				E0BACC5116352ACA00C53728 /* 8.jpg in Resources */,
 				E0BACC5216352ACA00C53728 /* 9.jpg in Resources */,
 				E0BACC5416352DF300C53728 /* 0.jpg in Resources */,
+				E0899FE31635989400C63744 /* 32.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
