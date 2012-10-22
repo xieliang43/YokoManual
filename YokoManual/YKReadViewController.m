@@ -72,7 +72,7 @@
 
 #pragma mark LeavesViewDataSource methods
 - (NSUInteger) numberOfPagesInLeavesView:(LeavesView*)leavesView {
-	return 33;
+	return 34;
 }
 
 - (void) renderPageAtIndex:(NSUInteger)index inContext:(CGContextRef)ctx {
