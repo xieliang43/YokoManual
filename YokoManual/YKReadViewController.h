@@ -10,8 +10,9 @@
 
 @interface YKReadViewController : LeavesViewController
 {
-    NSMutableArray *imageArray;
+    
 }
 
+- (void)setCurrentPage:(NSInteger)page;
 
 @end

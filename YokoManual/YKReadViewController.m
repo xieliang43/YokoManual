@@ -17,8 +17,6 @@
 
 - (void)dealloc
 {
-    [imageArray release];
-    [self removeObserver:self forKeyPath:@"isHideBars"];
     [super dealloc];
 }
 
@@ -27,19 +25,22 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        self.title = @"YOKOHAMA节油手册";
-        
-        imageArray = [[NSMutableArray array] retain];
-        for (int i = 0; i <= 31; i++) {
-            NSString *name = [NSString stringWithFormat:@"%d.jpg",i];
-            UIImage *img = [UIImage imageNamed:name];
-            [imageArray addObject:img];
-        }
         
         self.wantsFullScreenLayout = YES;
 
+        UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        backBtn.frame = CGRectMake(320 - 44, 0, 44, 44);
+        backBtn.imageEdgeInsets = UIEdgeInsetsMake(10, 10, 9, 9);
+        [backBtn setImage:[UIImage imageNamed:@"back.png"] forState:UIControlStateNormal];
+        [backBtn addTarget:self action:@selector(goBack) forControlEvents:UIControlEventTouchUpInside];
+        [self.view addSubview:backBtn];
     }
     return self;
+}
+
+- (void)goBack
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)viewDidLoad
@@ -64,13 +65,19 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (void)setCurrentPage:(NSInteger)page
+{
+    [leavesView setCurrentPageIndex:page];
+}
+
 #pragma mark LeavesViewDataSource methods
 - (NSUInteger) numberOfPagesInLeavesView:(LeavesView*)leavesView {
-	return [imageArray count];
+	return 32;
 }
 
 - (void) renderPageAtIndex:(NSUInteger)index inContext:(CGContextRef)ctx {
-    UIImage *image = [imageArray objectAtIndex:index];
+    NSString *name = [NSString stringWithFormat:@"%d.jpg",index];
+    UIImage *image = [UIImage imageNamed:name];
 	CGRect imageRect = CGRectMake(0, 0, image.size.width, image.size.height);
 	CGAffineTransform transform = aspectFit(imageRect,CGContextGetClipBoundingBox(ctx));
 	CGContextConcatCTM(ctx, transform);
