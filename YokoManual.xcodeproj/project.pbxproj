@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0BACAB4163526AA00C53728 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BACAB3163526AA00C53728 /* UIKit.framework */; };
+		E0BACAB6163526AA00C53728 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BACAB5163526AA00C53728 /* Foundation.framework */; };
+		E0BACAB8163526AA00C53728 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BACAB7163526AA00C53728 /* CoreGraphics.framework */; };
+		E0BACABE163526AB00C53728 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0BACABC163526AB00C53728 /* InfoPlist.strings */; };
+		E0BACAC0163526AB00C53728 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BACABF163526AB00C53728 /* main.m */; };
+		E0BACAC4163526AB00C53728 /* XLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BACAC3163526AB00C53728 /* XLAppDelegate.m */; };
+		E0BACAC6163526AB00C53728 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E0BACAC5163526AB00C53728 /* Default.png */; };
+		E0BACAC8163526AB00C53728 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0BACAC7163526AB00C53728 /* Default@2x.png */; };
+		E0BACACA163526AB00C53728 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0BACAC9163526AB00C53728 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E0BACAAF163526AA00C53728 /* YokoManual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YokoManual.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BACAB3163526AA00C53728 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0BACAB5163526AA00C53728 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E0BACAB7163526AA00C53728 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0BACABB163526AB00C53728 /* YokoManual-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YokoManual-Info.plist"; sourceTree = "<group>"; };
+		E0BACABD163526AB00C53728 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0BACABF163526AB00C53728 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0BACAC1163526AB00C53728 /* YokoManual-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YokoManual-Prefix.pch"; sourceTree = "<group>"; };
+		E0BACAC2163526AB00C53728 /* XLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLAppDelegate.h; sourceTree = "<group>"; };
+		E0BACAC3163526AB00C53728 /* XLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLAppDelegate.m; sourceTree = "<group>"; };
+		E0BACAC5163526AB00C53728 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E0BACAC7163526AB00C53728 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E0BACAC9163526AB00C53728 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0BACAAC163526AA00C53728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BACAB4163526AA00C53728 /* UIKit.framework in Frameworks */,
+				E0BACAB6163526AA00C53728 /* Foundation.framework in Frameworks */,
+				E0BACAB8163526AA00C53728 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0BACAA4163526AA00C53728 = {
+			isa = PBXGroup;
+			children = (
+				E0BACAB9163526AA00C53728 /* YokoManual */,
+				E0BACAB2163526AA00C53728 /* Frameworks */,
+				E0BACAB0163526AA00C53728 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0BACAB0163526AA00C53728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0BACAAF163526AA00C53728 /* YokoManual.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0BACAB2163526AA00C53728 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0BACAB3163526AA00C53728 /* UIKit.framework */,
+				E0BACAB5163526AA00C53728 /* Foundation.framework */,
+				E0BACAB7163526AA00C53728 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0BACAB9163526AA00C53728 /* YokoManual */ = {
+			isa = PBXGroup;
+			children = (
+				E0BACAC2163526AB00C53728 /* XLAppDelegate.h */,
+				E0BACAC3163526AB00C53728 /* XLAppDelegate.m */,
+				E0BACABA163526AB00C53728 /* Supporting Files */,
+			);
+			path = YokoManual;
+			sourceTree = "<group>";
+		};
+		E0BACABA163526AB00C53728 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0BACABB163526AB00C53728 /* YokoManual-Info.plist */,
+				E0BACABC163526AB00C53728 /* InfoPlist.strings */,
+				E0BACABF163526AB00C53728 /* main.m */,
+				E0BACAC1163526AB00C53728 /* YokoManual-Prefix.pch */,
+				E0BACAC5163526AB00C53728 /* Default.png */,
+				E0BACAC7163526AB00C53728 /* Default@2x.png */,
+				E0BACAC9163526AB00C53728 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0BACAAE163526AA00C53728 /* YokoManual */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0BACACD163526AB00C53728 /* Build configuration list for PBXNativeTarget "YokoManual" */;
+			buildPhases = (
+				E0BACAAB163526AA00C53728 /* Sources */,
+				E0BACAAC163526AA00C53728 /* Frameworks */,
+				E0BACAAD163526AA00C53728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YokoManual;
+			productName = YokoManual;
+			productReference = E0BACAAF163526AA00C53728 /* YokoManual.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0BACAA6163526AA00C53728 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XL;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = xieliang;
+			};
+			buildConfigurationList = E0BACAA9163526AA00C53728 /* Build configuration list for PBXProject "YokoManual" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0BACAA4163526AA00C53728;
+			productRefGroup = E0BACAB0163526AA00C53728 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0BACAAE163526AA00C53728 /* YokoManual */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0BACAAD163526AA00C53728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BACABE163526AB00C53728 /* InfoPlist.strings in Resources */,
+				E0BACAC6163526AB00C53728 /* Default.png in Resources */,
+				E0BACAC8163526AB00C53728 /* Default@2x.png in Resources */,
+				E0BACACA163526AB00C53728 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0BACAAB163526AA00C53728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BACAC0163526AB00C53728 /* main.m in Sources */,
+				E0BACAC4163526AB00C53728 /* XLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0BACABC163526AB00C53728 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0BACABD163526AB00C53728 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0BACACB163526AB00C53728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0BACACC163526AB00C53728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0BACACE163526AB00C53728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YokoManual/YokoManual-Prefix.pch";
+				INFOPLIST_FILE = "YokoManual/YokoManual-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E0BACACF163526AB00C53728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YokoManual/YokoManual-Prefix.pch";
+				INFOPLIST_FILE = "YokoManual/YokoManual-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0BACAA9163526AA00C53728 /* Build configuration list for PBXProject "YokoManual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BACACB163526AB00C53728 /* Debug */,
+				E0BACACC163526AB00C53728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0BACACD163526AB00C53728 /* Build configuration list for PBXNativeTarget "YokoManual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BACACE163526AB00C53728 /* Debug */,
+				E0BACACF163526AB00C53728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0BACAA6163526AA00C53728 /* Project object */;
+}
