@@ -30,7 +30,7 @@
         self.title = @"YOKOHAMA节油手册";
         
         imageArray = [[NSMutableArray array] retain];
-        for (int i = 1; i <= 31; i++) {
+        for (int i = 0; i <= 31; i++) {
             NSString *name = [NSString stringWithFormat:@"%d.jpg",i];
             UIImage *img = [UIImage imageNamed:name];
             [imageArray addObject:img];

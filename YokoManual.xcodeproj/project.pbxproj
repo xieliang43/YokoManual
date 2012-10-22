@@ -85,6 +85,7 @@
 		E0BACC5016352ACA00C53728 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0BACC3116352ACA00C53728 /* 7.jpg */; };
 		E0BACC5116352ACA00C53728 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0BACC3216352ACA00C53728 /* 8.jpg */; };
 		E0BACC5216352ACA00C53728 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0BACC3316352ACA00C53728 /* 9.jpg */; };
+		E0BACC5416352DF300C53728 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0BACC5316352DF300C53728 /* 0.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -198,6 +199,7 @@
 		E0BACC3116352ACA00C53728 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
 		E0BACC3216352ACA00C53728 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
 		E0BACC3316352ACA00C53728 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		E0BACC5316352DF300C53728 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -402,6 +404,7 @@
 				E0BACC2816352ACA00C53728 /* 27.jpg */,
 				E0BACC2916352ACA00C53728 /* 28.jpg */,
 				E0BACC2A16352ACA00C53728 /* 29.jpg */,
+				E0BACC5316352DF300C53728 /* 0.jpg */,
 				E0BACC2B16352ACA00C53728 /* 3.jpg */,
 				E0BACC2C16352ACA00C53728 /* 30.jpg */,
 				E0BACC2D16352ACA00C53728 /* 31.jpg */,
@@ -512,6 +515,7 @@
 				E0BACC5016352ACA00C53728 /* 7.jpg in Resources */,
 				E0BACC5116352ACA00C53728 /* 8.jpg in Resources */,
 				E0BACC5216352ACA00C53728 /* 9.jpg in Resources */,
+				E0BACC5416352DF300C53728 /* 0.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
