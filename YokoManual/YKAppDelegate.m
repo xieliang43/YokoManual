@@ -1,26 +1,35 @@
 //
-//  XLAppDelegate.m
+//  YKAppDelegate.m
 //  YokoManual
 //
-//  Created by xie liang on 10/22/12.
-//  Copyright (c) 2012 xieliang. All rights reserved.
+//  Created by xie liang on 9/14/12.
+//  Copyright (c) 2012 YOKOHAMA. All rights reserved.
 //
 
-#import "XLAppDelegate.h"
+#import "YKAppDelegate.h"
 
-@implementation XLAppDelegate
+#import "YKViewController.h"
+
+@implementation YKAppDelegate
+
+@synthesize window = _window;
+@synthesize viewController = _viewController;
 
 - (void)dealloc
 {
     [_window release];
+    [_viewController release];
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    application.statusBarHidden = YES;
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.viewController = [[[YKViewController alloc] initWithNibName:@"YKViewController" bundle:nil] autorelease];
+    self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }

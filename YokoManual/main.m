@@ -2,17 +2,17 @@
 //  main.m
 //  YokoManual
 //
-//  Created by xie liang on 10/22/12.
-//  Copyright (c) 2012 xieliang. All rights reserved.
+//  Created by xie liang on 9/14/12.
+//  Copyright (c) 2012 YOKOHAMA. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-#import "XLAppDelegate.h"
+#import "YKAppDelegate.h"
 
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([XLAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([YKAppDelegate class]));
     }
 }
