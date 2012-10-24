@@ -8,14 +8,18 @@
 	<string>节能手册</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string>icon.png</string>
 	<key>CFBundleIcons</key>
 	<dict>
 		<key>CFBundlePrimaryIcon</key>
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>icon57.png</string>
-				<string>icon114.png</string>
+				<string>icon.png</string>
+				<string>icon@2x.png</string>
 			</array>
 			<key>UIPrerenderedIcon</key>
 			<true/>
@@ -35,8 +39,12 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string></string>
 	<key>UIPrerenderedIcon</key>
 	<true/>
 	<key>UIRequiredDeviceCapabilities</key>
