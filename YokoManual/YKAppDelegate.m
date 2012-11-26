@@ -13,7 +13,6 @@
 @implementation YKAppDelegate
 
 @synthesize window = _window;
-@synthesize viewController = _viewController;
 
 - (void)dealloc
 {
