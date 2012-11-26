@@ -77,7 +77,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation == UIDeviceOrientationLandscapeRight) || (interfaceOrientation == UIDeviceOrientationLandscapeLeft);
+    return (interfaceOrientation == UIDeviceOrientationPortrait);
 }
 
 #pragma mark - UIWebViewDelegate

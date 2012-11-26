@@ -52,8 +52,6 @@
 		E0BACC081635294B00C53728 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BACC071635294B00C53728 /* libz.dylib */; };
 		E0BACC0A1635295400C53728 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BACC091635295400C53728 /* MobileCoreServices.framework */; };
 		E0BACC0C1635297100C53728 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BACC0B1635297100C53728 /* QuartzCore.framework */; };
-		E0BACC0E1635299800C53728 /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = E0BACC0D1635299800C53728 /* icon57.png */; };
-		E0BACC10163529A100C53728 /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = E0BACC0F163529A100C53728 /* icon114.png */; };
 		E0BACC13163529FD00C53728 /* YKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0BACC11163529FD00C53728 /* YKViewController.xib */; };
 		E0BACC3416352ACA00C53728 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0BACC1516352ACA00C53728 /* 1.jpg */; };
 		E0BACC3516352ACA00C53728 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0BACC1616352ACA00C53728 /* 10.jpg */; };
@@ -87,6 +85,8 @@
 		E0BACC5116352ACA00C53728 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0BACC3216352ACA00C53728 /* 8.jpg */; };
 		E0BACC5216352ACA00C53728 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0BACC3316352ACA00C53728 /* 9.jpg */; };
 		E0BACC5416352DF300C53728 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0BACC5316352DF300C53728 /* 0.jpg */; };
+		E0EF7AE8163780230096760C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EF7AE6163780230096760C /* icon.png */; };
+		E0EF7AE9163780230096760C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EF7AE7163780230096760C /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -167,8 +167,6 @@
 		E0BACC071635294B00C53728 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		E0BACC091635295400C53728 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		E0BACC0B1635297100C53728 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		E0BACC0D1635299800C53728 /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
-		E0BACC0F163529A100C53728 /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
 		E0BACC12163529FD00C53728 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YKViewController.xib; sourceTree = "<group>"; };
 		E0BACC1516352ACA00C53728 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		E0BACC1616352ACA00C53728 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
@@ -202,6 +200,8 @@
 		E0BACC3216352ACA00C53728 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
 		E0BACC3316352ACA00C53728 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
 		E0BACC5316352DF300C53728 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		E0EF7AE6163780230096760C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E0EF7AE7163780230096760C /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,8 +226,8 @@
 		E0BACAA4163526AA00C53728 = {
 			isa = PBXGroup;
 			children = (
-				E0BACC0F163529A100C53728 /* icon114.png */,
-				E0BACC0D1635299800C53728 /* icon57.png */,
+				E0EF7AE6163780230096760C /* icon.png */,
+				E0EF7AE7163780230096760C /* icon@2x.png */,
 				E0BACAB9163526AA00C53728 /* YokoManual */,
 				E0BACAB2163526AA00C53728 /* Frameworks */,
 				E0BACAB0163526AA00C53728 /* Products */,
@@ -484,8 +484,6 @@
 				E0BACB841635286C00C53728 /* start_read@2x.png in Resources */,
 				E0BACB851635286C00C53728 /* title_btn_sel@2x.png in Resources */,
 				E0BACB861635286C00C53728 /* title_btn@2x.png in Resources */,
-				E0BACC0E1635299800C53728 /* icon57.png in Resources */,
-				E0BACC10163529A100C53728 /* icon114.png in Resources */,
 				E0BACC13163529FD00C53728 /* YKViewController.xib in Resources */,
 				E0BACC3416352ACA00C53728 /* 1.jpg in Resources */,
 				E0BACC3516352ACA00C53728 /* 10.jpg in Resources */,
@@ -520,6 +518,8 @@
 				E0BACC5216352ACA00C53728 /* 9.jpg in Resources */,
 				E0BACC5416352DF300C53728 /* 0.jpg in Resources */,
 				E0899FE31635989400C63744 /* 32.jpg in Resources */,
+				E0EF7AE8163780230096760C /* icon.png in Resources */,
+				E0EF7AE9163780230096760C /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,11 +630,15 @@
 		E0BACACE163526AB00C53728 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: fu xunrong (2N75ALLRC5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: fu xunrong (2N75ALLRC5)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YokoManual/YokoManual-Prefix.pch";
 				INFOPLIST_FILE = "YokoManual/YokoManual-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "663E4281-8128-4638-8B26-D96391C31215";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "663E4281-8128-4638-8B26-D96391C31215";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -642,11 +646,15 @@
 		E0BACACF163526AB00C53728 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: xie liang";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: xie liang";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YokoManual/YokoManual-Prefix.pch";
 				INFOPLIST_FILE = "YokoManual/YokoManual-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3416E042-AE0D-4D94-948A-64DB67959D61";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3416E042-AE0D-4D94-948A-64DB67959D61";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
